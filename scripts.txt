@@ -1,0 +1,6 @@
+INSERT INTO ACTEUR (FIRSTNAME, NAME) VALUES ('Kristen', 'Stewart'), ('Charlize', 'Theron');
+
+INSERT INTO FILM (NAME, RATE, YEAR, ID_ACTEUR) VALUES ('Personal Shopper', 4, '2016', 1), ('Monster', 5, '2003', 2);
+
+SELECT * FROM FILM JOIN ACTEUR ON ACTEUR.ID = FILM.ID_ACTEUR;
+
